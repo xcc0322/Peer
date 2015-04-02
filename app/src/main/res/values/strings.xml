@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Peer</string>
+    <string name="parse_app_id">hFyJ3QxrARb3j64sXwXwp49s5QFolaYJCmtPZaGU</string>
+    <string name="parse_client_key">K4qm3Xnahm6WvMNToVJRJLr346rPVHnmTK4ktyKB</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
