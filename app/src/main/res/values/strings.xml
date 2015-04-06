@@ -5,6 +5,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="loading">Loading...</string>
+    <string name="saving">Saving...</string>
 
 
     <string name="empty">There are no todo items.</string>
