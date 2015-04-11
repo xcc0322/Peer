@@ -30,7 +30,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    sourceSets { main { java.srcDirs = ['src/main/java', 'src/main/java/application'] } }
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java', 'src/main/java/application', 'src/main/java/model']
+        }
+    }
 }
 
 dependencies {
@@ -39,8 +43,6 @@ dependencies {
     compile 'io.reactivex:rxandroid:0.24.0'
     compile 'com.parse.bolts:bolts-android:1.1.4'
     compile 'com.jakewharton:butterknife:6.1.0'
-    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
-    compile fileTree(dir: 'libs', include: 'ParseCrashReporting-*.jar')
 }
 
 retrolambda {

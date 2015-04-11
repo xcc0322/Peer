@@ -5,14 +5,40 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="action_save">Save</string>
     <string name="loading">Loading...</string>
     <string name="saving">Saving...</string>
 
 
     <string name="empty">There are no todo items.</string>
     <string name="menu_insert">Add Todo</string>
+    <string name="menu_logout">Log Out</string>
     <string name="name">Enter your todo</string>
     <string name="confirm">Done</string>
     <string name="create_todo">Create Todo</string>
+    <string name="new_favor">New Favor</string>
     <string name="menu_delete">Delete Todo</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="prompt_phone">Phone number</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_name">Your name</string>
+    <string name="prompt_bio">Introduce yourself</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="startlocation">Start locating</string>
+    <string name="stoplocation">Stop locating</string>
+    <string name="hight_accuracy_desc">High Accuracy</string>
+    <string name="saving_battery_desc">Saving battery</string>
+    <string name="device_sensor_desc">Device sensor</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="create_favor_title">Favor Title</string>
+    <string name="create_favor_where">Location</string>
+    <string name="create_favor_description">Description</string>
+    <string name="create_favor_choose_date"><u>Date</u></string>
+    <string name="create_favor_choose_time"><u>Time</u></string>
+    <string name="create_favor_invalid_time_toast">Sorry, you cannot set a past time to the favor!</string>
+    <string name="create_favor_back_alert_title">Cancel</string>
+    <string name="create_favor_back_alert_content">Are you sure to leave?</string>
 </resources>
