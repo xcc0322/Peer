@@ -45,17 +45,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EditFavor.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EditFavor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/EditFavor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53816044" vertical-offset="1993" max-vertical-offset="5901">
-              <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+            <state vertical-scroll-proportion="-7.571429" vertical-offset="3673" max-vertical-offset="5901">
+              <caret line="191" column="21" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5674#5793#0" expanded="true" />
                 <element signature="e#5780#5781#0" expanded="true" />
                 <element signature="e#8328#8377#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextUtil.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/util/TextUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46753246" vertical-offset="0" max-vertical-offset="539">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,16 +152,6 @@
                 <element signature="e#3669#3694#0" expanded="true" />
                 <element signature="e#3938#3965#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeoCodeOption.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/app/libs/BaiduLBS_Android.jar!/com/baidu/mapapi/search/geocode/GeoCodeOption.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.24" vertical-offset="0" max-vertical-offset="420">
-              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1108,7 +1108,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/util/LocationUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/model/Favor.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/util/TextUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/ViewUser.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_geocoder.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/ViewFavor.java" />
@@ -1116,6 +1115,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/create_favor.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/EditFavor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/util/TextUtil.java" />
       </list>
     </option>
   </component>
@@ -2127,17 +2127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/util/TextUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/app/libs/BaiduLBS_Android.jar!/com/baidu/mapapi/model/LatLng.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="399">
@@ -2271,14 +2260,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/EditFavor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53816044" vertical-offset="1993" max-vertical-offset="5901">
-          <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+        <state vertical-scroll-proportion="-7.571429" vertical-offset="3673" max-vertical-offset="5901">
+          <caret line="191" column="21" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5674#5793#0" expanded="true" />
             <element signature="e#5780#5781#0" expanded="true" />
             <element signature="e#8328#8377#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/util/TextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46753246" vertical-offset="0" max-vertical-offset="539">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
