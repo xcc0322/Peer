@@ -6,8 +6,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="action_save">Save</string>
+    <string name="action_claim">Claim</string>
     <string name="loading">Loading...</string>
     <string name="saving">Saving...</string>
+    <string name="locating">Locating...</string>
 
 
     <string name="empty">There are no todo items.</string>
@@ -17,6 +19,7 @@
     <string name="confirm">Done</string>
     <string name="create_todo">Create Todo</string>
     <string name="new_favor">New Favor</string>
+    <string name="view_favor">Favor</string>
     <string name="menu_delete">Delete Todo</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
@@ -38,7 +41,27 @@
     <string name="create_favor_description">Description</string>
     <string name="create_favor_choose_date"><u>Date</u></string>
     <string name="create_favor_choose_time"><u>Time</u></string>
-    <string name="create_favor_invalid_time_toast">Sorry, you cannot set a past time to the favor!</string>
     <string name="create_favor_back_alert_title">Cancel</string>
     <string name="create_favor_back_alert_content">Are you sure to leave?</string>
+    <string name="title_activity_favor">FavorActivity</string>
+
+
+    <string name="title_section_nearby">Nearby</string>
+    <string name="title_section_inbox">Inbox</string>
+    <string name="title_section_outbox">Outbox</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="favor_form_invalid_toast_title">Sorry, your title should not be empty.</string>
+    <string name="favor_form_invalid_toast_description">Sorry, your description should not be empty.</string>
+    <string name="favor_form_invalid_toast_location">Sorry, your location should not be empty.</string>
+    <string name="favor_form_invalid_toast_time">Sorry, the due time should be at least 10 minutes from now.</string>
+
+
+    <string name="location_button">Locate</string>
+    <string name="location_default_address">上海市邯郸路220号</string>
+    <string name="location_success">Success</string>
+    <string name="location_no_result">Sorry, no result!</string>
 </resources>

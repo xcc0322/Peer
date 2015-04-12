@@ -5,4 +5,11 @@
     <dimen name="form_list_item_height">50dp</dimen>
     <dimen name="form_list_item_text_size">18dip</dimen>
     <dimen name="form_margin">16dp</dimen>
+
+    <dimen name="favor_row_margin">16dp</dimen>
+    <dimen name="favor_row_padding">5dp</dimen>
+    <dimen name="favor_row_height">100dp</dimen>
+
+    <dimen name="favor_detail_title">25dip</dimen>
+    <dimen name="favor_detail_description">14dip</dimen>
 </resources>

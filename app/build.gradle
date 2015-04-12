@@ -4,8 +4,13 @@ apply plugin: 'me.tatarka.retrolambda'
 
 buildscript {
     repositories {
+        maven {
+            url 'http://dl.bintray.com/populov/maven'
+        }
         mavenCentral()
-        maven { url 'https://maven.parse.com/repo' }
+        maven {
+            url 'https://maven.parse.com/repo'
+        }
     }
     dependencies {
         classpath 'com.parse.tools:gradle:1.+'
@@ -43,6 +48,8 @@ dependencies {
     compile 'io.reactivex:rxandroid:0.24.0'
     compile 'com.parse.bolts:bolts-android:1.1.4'
     compile 'com.jakewharton:butterknife:6.1.0'
+    compile 'com.viewpagerindicator:library:2.4.1@aar'
+    compile 'org.ocpsoft.prettytime:prettytime:3.2.5.Final'
 }
 
 retrolambda {
