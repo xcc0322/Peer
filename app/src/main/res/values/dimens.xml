@@ -12,4 +12,6 @@
 
     <dimen name="favor_detail_title">25dip</dimen>
     <dimen name="favor_detail_description">14dip</dimen>
+
+    <dimen name="user_profile_image_board_height">200dp</dimen>
 </resources>

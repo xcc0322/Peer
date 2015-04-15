@@ -50,6 +50,8 @@ dependencies {
     compile 'com.jakewharton:butterknife:6.1.0'
     compile 'com.viewpagerindicator:library:2.4.1@aar'
     compile 'org.ocpsoft.prettytime:prettytime:3.2.5.Final'
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }
 
 retrolambda {

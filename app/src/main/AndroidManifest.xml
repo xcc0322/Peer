@@ -27,6 +27,7 @@
     <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
 
     <android:uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"

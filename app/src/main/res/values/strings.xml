@@ -14,7 +14,10 @@
 
     <string name="empty">There are no todo items.</string>
     <string name="menu_insert">Add Todo</string>
+    <string name="menu_me">Me</string>
     <string name="menu_logout">Log Out</string>
+
+
     <string name="name">Enter your todo</string>
     <string name="confirm">Done</string>
     <string name="create_todo">Create Todo</string>
@@ -36,6 +39,7 @@
     <string name="saving_battery_desc">Saving battery</string>
     <string name="device_sensor_desc">Device sensor</string>
     <string name="title_activity_map">MapActivity</string>
+
     <string name="create_favor_title">Favor Title</string>
     <string name="create_favor_where">Location</string>
     <string name="create_favor_description">Description</string>
@@ -43,6 +47,10 @@
     <string name="create_favor_choose_time"><u>Time</u></string>
     <string name="create_favor_back_alert_title">Cancel</string>
     <string name="create_favor_back_alert_content">Are you sure to leave?</string>
+
+    <string name="view_user_name">Name:</string>
+    <string name="view_user_bio">Bio:</string>
+
     <string name="title_activity_favor">FavorActivity</string>
 
 
