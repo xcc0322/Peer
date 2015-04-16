@@ -54,8 +54,8 @@
             android:value="nykItyIZeRZmxP75R7zCNvp1" />
 
         <activity
-            android:name=".EditFavor"
-            android:parentActivityName=".FavorActivity" />
+            android:name=".favor.EditFavor"
+            android:parentActivityName=".favor.FavorActivity" />
         <activity android:name=".LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -63,11 +63,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FavorActivity" >
+        <activity android:name=".favor.FavorActivity" >
         </activity>
-        <activity android:name=".ViewFavor" >
+        <activity android:name=".favor.ViewFavor" >
         </activity>
-        <activity android:name=".ViewUser" >
+        <activity android:name=".user.ViewUser" >
         </activity>
         <activity android:name=".SignUpActivity" >
         </activity>

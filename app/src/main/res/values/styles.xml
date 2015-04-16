@@ -4,6 +4,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="android:actionButtonStyle">@style/MyActionButtonStyle</item>
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
 
     </style>
 
@@ -12,4 +13,8 @@
         <item name="android:padding">10dip</item>
     </style>
 
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:displayOptions">showHome|useLogo|showTitle</item>
+        <item name="displayOptions">showHome|useLogo|showTitle</item>
+    </style>
 </resources>
