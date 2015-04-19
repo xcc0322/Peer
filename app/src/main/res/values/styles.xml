@@ -5,7 +5,9 @@
         <!-- Customize your theme here. -->
         <item name="android:actionButtonStyle">@style/MyActionButtonStyle</item>
         <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
-
+        <item name="vpiTitlePageIndicatorStyle">@style/CustomTitlePageIndicator</item>
+        <item name="colorPrimaryDark">@color/DarkOrange</item>
+        <item name="colorPrimary">@color/Orange</item>
     </style>
 
     <style name="MyActionButtonStyle" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -16,5 +18,17 @@
     <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:displayOptions">showHome|useLogo|showTitle</item>
         <item name="displayOptions">showHome|useLogo|showTitle</item>
+        <item name="android:background">@color/Orange</item>
+    </style>
+
+    <style name="CustomTitlePageIndicator">
+        <item name="android:background">@color/LightYellow</item>
+        <item name="footerColor">@color/Yellow</item>
+        <item name="footerLineHeight">1dp</item>
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="android:textColor">#AA000000</item>
+        <item name="selectedColor">#FF000000</item>
+        <item name="selectedBold">true</item>
     </style>
 </resources>

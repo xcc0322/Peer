@@ -23,6 +23,7 @@
     <string name="confirm">Done</string>
     <string name="create_todo">Create Todo</string>
     <string name="new_favor">New Favor</string>
+    <string name="edit_profile">New Favor</string>
     <string name="view_favor">Favor</string>
     <string name="menu_delete">Delete Todo</string>
     <string name="title_activity_login">LoginActivity</string>
@@ -30,6 +31,7 @@
     <string name="prompt_phone">Phone number</string>
     <string name="prompt_password">Password</string>
     <string name="prompt_name">Your name</string>
+    <string name="prompt_birthday">Birthday</string>
     <string name="prompt_bio">Introduce yourself</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_up">Sign up</string>
@@ -52,9 +54,11 @@
     <string name="view_user_name_title">Name:</string>
     <string name="view_user_bio_title">Bio:</string>
     <string name="view_user_phone_title">Phone:</string>
+    <string name="view_user_birthday_title">Birthday:</string>
     <string name="view_user_name">Your name.</string>
     <string name="view_user_bio">Say something to introduce yourself.</string>
     <string name="view_user_phone">Your phone number.</string>
+    <string name="view_user_birthday">Your birthday.</string>
 
     <string name="title_activity_favor">FavorActivity</string>
 
@@ -77,4 +81,6 @@
     <string name="location_default_address">上海市邯郸路220号</string>
     <string name="location_success">Success</string>
     <string name="location_no_result">Sorry, no result!</string>
+
+    <string name="default_bio">The guy is too lazy to leave a bio.</string>
 </resources>
