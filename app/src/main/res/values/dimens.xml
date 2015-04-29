@@ -3,15 +3,17 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="form_list_item_height">40dp</dimen>
-    <dimen name="form_list_item_text_size">18dip</dimen>
+    <dimen name="form_list_item_text_size">18sp</dimen>
     <dimen name="form_margin">16dp</dimen>
 
+    <dimen name="form_row_photo_side_length">40dp</dimen>
+    <dimen name="form_row_photo_margin">10dp</dimen>
     <dimen name="favor_row_margin">16dp</dimen>
     <dimen name="favor_row_padding">5dp</dimen>
     <dimen name="favor_row_height">100dp</dimen>
 
-    <dimen name="favor_detail_title">25dip</dimen>
-    <dimen name="favor_detail_description">14dip</dimen>
+    <dimen name="favor_detail_title">25sp</dimen>
+    <dimen name="favor_detail_description">14sp</dimen>
 
     <dimen name="user_profile_image_board_height">200dp</dimen>
     <dimen name="dial_button_diameter">80dp</dimen>

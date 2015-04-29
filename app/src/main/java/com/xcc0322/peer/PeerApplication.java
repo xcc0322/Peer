@@ -9,10 +9,13 @@ import com.parse.ParseUser;
 import android.app.Application;
 
 public class PeerApplication extends Application {
-  private static final String APPLICATION_ID =
+  public static final String APPLICATION_ID =
       "hFyJ3QxrARb3j64sXwXwp49s5QFolaYJCmtPZaGU";
-  private static final String CLIENT_KEY =
+  public static final String CLIENT_KEY =
       "K4qm3Xnahm6WvMNToVJRJLr346rPVHnmTK4ktyKB";
+  public static final String BAIDU_AK =
+      "nykItyIZeRZmxP75R7zCNvp1";
+
 
   @Override
   public void onCreate() {
