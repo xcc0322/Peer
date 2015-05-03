@@ -84,5 +84,5 @@
     <string name="location_no_result">Sorry, no result!</string>
 
     <string name="default_bio">The guy is too lazy to leave a bio.</string>
-    <string name="distance_suffix">km away</string>
+    <string name="distance_suffix">m away</string>
 </resources>
