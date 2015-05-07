@@ -16,7 +16,7 @@
     <string name="action_edit">Edit</string>
     <string name="action_settings">Settings</string>
     <string name="action_save">Save</string>
-    <string name="action_claim">Claim</string>
+    <string name="action_claim">I can help!</string>
     <string name="action_locate">Locate</string>
 
 
@@ -26,7 +26,7 @@
     <string name="new_favor">New Favor</string>
     <string name="edit_profile">New Favor</string>
     <string name="view_favor">Favor</string>
-    <string name="menu_delete">Delete Todo</string>
+    <string name="menu_delete">Delete</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="prompt_phone">Phone number</string>
@@ -85,4 +85,6 @@
 
     <string name="default_bio">The guy is too lazy to leave a bio.</string>
     <string name="distance_suffix">m away</string>
+
+    <string name="invalid_phone_number">Invalid Phone Number!</string>
 </resources>
