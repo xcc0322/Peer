@@ -36,10 +36,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5718fa18-fd93-4aad-82e2-70ac3481af4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_list.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_list.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_list.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_list.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_list.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_list.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_list.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_list.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/HomeLocationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/HomeLocationActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Peer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_home_location.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="menu_home_location.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_home_location.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24421594" vertical-offset="0" max-vertical-offset="551">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
               <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
@@ -102,8 +100,8 @@
       <file leaf-file-name="EditFavor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/EditFavor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9285715" vertical-offset="2093" max-vertical-offset="5301">
-              <caret line="117" column="62" selection-start-line="117" selection-start-column="62" selection-end-line="117" selection-end-column="62" />
+            <state vertical-scroll-proportion="-0.21428572" vertical-offset="1818" max-vertical-offset="5301">
+              <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +121,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeLocationActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ViewFavor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/ViewFavor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.321429" vertical-offset="1286" max-vertical-offset="2812">
+              <caret line="118" column="25" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeLocationActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/HomeLocationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.392857" vertical-offset="912" max-vertical-offset="3534">
-              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.3713355" vertical-offset="2755" max-vertical-offset="3648">
+              <caret line="193" column="58" selection-start-line="193" selection-start-column="58" selection-end-line="193" selection-end-column="58" />
+              <folding>
+                <element signature="e#6315#6764#0" expanded="true" />
+                <element signature="e#6757#6758#0" expanded="true" />
+                <element signature="e#7083#7441#0" expanded="true" />
+                <element signature="e#7434#7435#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_geocoder.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_geocoder.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.962963" vertical-offset="417" max-vertical-offset="836">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -143,19 +169,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="location.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/location.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4545455" vertical-offset="302" max-vertical-offset="684">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -164,16 +177,6 @@
               <folding>
                 <element signature="e#2059#2077#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-zh-rCN/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3018866" vertical-offset="1501" max-vertical-offset="1938">
-              <caret line="91" column="55" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1590,7 +1593,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_view_favor.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_favor.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_geocoder.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/util/BaiduCloudServiceRestAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/PeerApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/util/BaiduCloudService.java" />
@@ -1615,7 +1617,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/FavorInboxListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/model/User.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/FavorListFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/EditFavor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/FavorOutboxListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/model/Favor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/ViewFavor.java" />
@@ -1624,8 +1625,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/LocationActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/util/LocationUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/HomeLocationActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_home_location.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_geocoder.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/EditFavor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/HomeLocationActivity.java" />
       </list>
     </option>
   </component>
@@ -2083,20 +2086,20 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3903577" sideWeight="0.543379" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2456621" sideWeight="0.2733813" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2456621" sideWeight="0.27295917" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35147744" sideWeight="0.14155251" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3903577" sideWeight="0.456621" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06757991" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19452055" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19452055" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2488336" sideWeight="0.4940639" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35147744" sideWeight="0.8584475" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35147744" sideWeight="0.8584475" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2456621" sideWeight="0.72422063" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2456621" sideWeight="0.7244898" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2140,17 +2143,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_user.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2142">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/color.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1994" max-vertical-offset="2567">
@@ -2431,14 +2423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/ViewFavor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2489" max-vertical-offset="3591">
-          <caret line="131" column="44" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-cn/values-w820dp/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
@@ -2514,6 +2498,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_home_location.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/LocationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.535714" vertical-offset="681" max-vertical-offset="4199">
@@ -2524,29 +2516,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_geocoder.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.962963" vertical-offset="417" max-vertical-offset="836">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/EditFavor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9285715" vertical-offset="2093" max-vertical-offset="5301">
-          <caret line="117" column="62" selection-start-line="117" selection-start-column="62" selection-end-line="117" selection-end-column="62" />
+        <state vertical-scroll-proportion="-0.21428572" vertical-offset="1818" max-vertical-offset="5301">
+          <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/HomeLocationActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/favor/ViewFavor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.392857" vertical-offset="912" max-vertical-offset="3534">
-          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+        <state vertical-scroll-proportion="-6.321429" vertical-offset="1286" max-vertical-offset="2812">
+          <caret line="118" column="25" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_home_location.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xcc0322/peer/HomeLocationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24421594" vertical-offset="0" max-vertical-offset="551">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
+        <state vertical-scroll-proportion="0.3713355" vertical-offset="2755" max-vertical-offset="3648">
+          <caret line="193" column="58" selection-start-line="193" selection-start-column="58" selection-end-line="193" selection-end-column="58" />
+          <folding>
+            <element signature="e#6315#6764#0" expanded="true" />
+            <element signature="e#6757#6758#0" expanded="true" />
+            <element signature="e#7083#7441#0" expanded="true" />
+            <element signature="e#7434#7435#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

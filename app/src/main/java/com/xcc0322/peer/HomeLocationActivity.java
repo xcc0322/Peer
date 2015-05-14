@@ -26,10 +26,12 @@ import com.baidu.mapapi.search.geocode.ReverseGeoCodeResult;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseGeoPoint;
+import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.xcc0322.peer.favor.EditFavor;
 import com.xcc0322.peer.favor.FavorActivity;
+import com.xcc0322.peer.favor.ViewFavor;
 import com.xcc0322.peer.model.User;
 import com.xcc0322.peer.user.ViewUser;
 
@@ -189,17 +191,17 @@ public class HomeLocationActivity extends ActionBarActivity implements
 
   private void queryNearBy(LatLng location) {
     final ParseGeoPoint userLocation = new ParseGeoPoint(location.latitude, location.longitude);
-    ParseQuery<ParseUser> query = ParseUser.getQuery();
+    ParseQuery<ParseObject> query = ParseQuery.getQuery("Favor");
     query.whereNear("location", userLocation);
     query.setLimit(10);
-    query.findInBackground(new FindCallback<ParseUser>() {
+    query.findInBackground(new FindCallback<ParseObject>() {
       @Override
-      public void done(List<ParseUser> users, ParseException e) {
+      public void done(List<ParseObject> favors, ParseException e) {
         int x = 5;
-        for(ParseUser user : users) {
-          if(user.has("location")) {
-            ParseGeoPoint location = user.getParseGeoPoint("location");
-            user.pinInBackground();
+        for(ParseObject favor : favors) {
+          if(favor.has("location")) {
+            ParseGeoPoint location = favor.getParseGeoPoint("location");
+            favor.pinInBackground();
             updateVolunteerLocation(location.getLatitude(), location.getLongitude());
           }
         }
@@ -209,15 +211,15 @@ public class HomeLocationActivity extends ActionBarActivity implements
 
   private void switchToViewUser(LatLng location) {
     final ParseGeoPoint userLocation = new ParseGeoPoint(location.latitude, location.longitude);
-    ParseQuery<ParseUser> query = ParseUser.getQuery();
+    ParseQuery<ParseObject> query = ParseQuery.getQuery("Favor");
     query.whereNear("location", userLocation);
     query.setLimit(1);
-    query.findInBackground(new FindCallback<ParseUser>() {
+    query.findInBackground(new FindCallback<ParseObject>() {
       @Override
-      public void done(List<ParseUser> users, ParseException e) {
-        for(ParseUser user : users) {
-          Intent intent = new Intent(HomeLocationActivity.this, ViewUser.class);
-          intent.putExtra("userId", user.getObjectId());
+      public void done(List<ParseObject> favors, ParseException e) {
+        for(ParseObject favor : favors) {
+          Intent intent = new Intent(HomeLocationActivity.this, ViewFavor.class);
+          intent.putExtra("favorId", favor.getObjectId());
           startActivity(intent);
         }
       }
