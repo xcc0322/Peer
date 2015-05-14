@@ -192,15 +192,20 @@ public class HomeLocationActivity extends ActionBarActivity implements
   private void queryNearBy(LatLng location) {
     final ParseGeoPoint userLocation = new ParseGeoPoint(location.latitude, location.longitude);
     ParseQuery<ParseObject> query = ParseQuery.getQuery("Favor");
-    query.whereNear("location", userLocation);
+    query.whereNear("destination", userLocation);
     query.setLimit(10);
     query.findInBackground(new FindCallback<ParseObject>() {
+      @Override
+      protected void finalize() throws Throwable {
+        super.finalize();
+      }
+
       @Override
       public void done(List<ParseObject> favors, ParseException e) {
         int x = 5;
         for(ParseObject favor : favors) {
-          if(favor.has("location")) {
-            ParseGeoPoint location = favor.getParseGeoPoint("location");
+          if(favor.has("destination")) {
+            ParseGeoPoint location = favor.getParseGeoPoint("destination");
             favor.pinInBackground();
             updateVolunteerLocation(location.getLatitude(), location.getLongitude());
           }
