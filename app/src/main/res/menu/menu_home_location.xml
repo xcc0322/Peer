@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.xcc0322.peer.favor.FavorActivity">
+    <item android:id="@+id/action_list"
+          android:icon="@drawable/ic_action_list"
+          android:title="@string/action_locate"
+          android:orderInCategory="1"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_insert"
+          android:icon="@drawable/ic_action_insert"
+          android:title="@string/action_insert"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_me"
+          android:title="@string/action_me"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_logout"
+          android:title="@string/action_logout"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>

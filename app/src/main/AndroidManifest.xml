@@ -58,10 +58,6 @@
             android:name=".favor.EditFavor"
             android:parentActivityName=".favor.FavorActivity" />
         <activity android:name=".LoginActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".favor.FavorActivity" >
         </activity>
@@ -76,6 +72,12 @@
         <activity android:name=".LocationActivity" >
         </activity>
         <activity android:name=".MapActivity" >
+        </activity>
+        <activity android:name=".HomeLocationActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

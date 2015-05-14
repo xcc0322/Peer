@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">伙伴</string>
+    <string name="parse_app_id">hFyJ3QxrARb3j64sXwXwp49s5QFolaYJCmtPZaGU</string>
+    <string name="parse_client_key">K4qm3Xnahm6WvMNToVJRJLr346rPVHnmTK4ktyKB</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">加载中...</string>
+    <string name="saving">保存中...</string>
+    <string name="locating">加载中...</string>
+
+
+    <string name="empty">目前没有请求。</string>
+    <string name="action_insert">寻求帮助</string>
+    <string name="action_logout">登出</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_settings">设置</string>
+    <string name="action_save">保存</string>
+    <string name="action_locate">定位</string>
+
+
+    <string name="name">Enter your todo</string>
+    <string name="confirm">完成</string>
+    <string name="create_todo">创建一条请求</string>
+    <string name="new_favor">新的请求</string>
+    <string name="edit_profile">新的请求</string>
+    <string name="view_favor">任务</string>
+    <string name="menu_delete">删除</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="prompt_phone">电话号码</string>
+    <string name="prompt_password">密码</string>
+    <string name="prompt_password_sign_up">密码(6-16位字母/数字)</string>
+    <string name="prompt_name">你的名字</string>
+    <string name="prompt_birthday">生日</string>
+    <string name="prompt_bio">介绍一下自己</string>
+    <string name="action_sign_in">登入</string>
+    <string name="action_sign_up">注册</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="startlocation">开始定位</string>
+    <string name="stoplocation">定位结束</string>
+    <string name="hight_accuracy_desc">High Accuracy</string>
+    <string name="saving_battery_desc">Saving battery</string>
+    <string name="device_sensor_desc">设备传感器</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <string name="create_favor_title">标题</string>
+    <string name="create_favor_where">位置</string>
+    <string name="create_favor_choose_date"><u>日期</u></string>
+    <string name="create_favor_choose_time"><u>时间</u></string>
+    <string name="create_favor_back_alert_title">取消</string>
+    <string name="create_favor_back_alert_content">你确定要退出吗？</string>
+
+    <string name="view_user_name_title">名字：</string>
+    <string name="view_user_bio_title">个人签名：</string>
+    <string name="view_user_phone_title">电话：</string>
+    <string name="view_user_birthday_title">生日：</string>
+    <string name="view_user_name">你的名字</string>
+    <string name="view_user_bio">说点什么来介绍一下自己ba</string>
+    <string name="view_user_phone">你的电话号码</string>
+    <string name="view_user_birthday">你的生日</string>
+
+    <string name="title_activity_favor">FavorActivity</string>
+
+
+    <string name="title_section_nearby">附近</string>
+    <string name="title_section_outbox">已发起</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="favor_form_invalid_toast_title">对不起，标题不能为空。</string>
+    <string name="favor_form_invalid_toast_description">对不起，描述不能为空。</string>
+    <string name="favor_form_invalid_toast_location">对不起，位置不能为空。</string>
+    <string name="favor_form_invalid_toast_time">对不起，制定时间应该至少在10分钟以后。</string>
+
+
+    <string name="location_button">定位</string>
+    <string name="location_default_address">上海市邯郸路220号</string>
+    <string name="location_success">成功</string>
+    <string name="location_no_result">对不起，没有结果返回！</string>
+
+    <string name="default_bio">这家伙太懒，什么都没留下</string>
+    <string name="distance_suffix">米外</string>
+
+    <string name="invalid_password">密码不符合要求！</string>
+    <string name="empty_outbox_hint">点击\"+\"来创建一个帮助请求</string>
+    <string name="empty_inbox_hint">找到一个“等待中”的任务，开始帮助别人吧！</string>
+    <string name="action_claim">我来帮忙</string>
+    <string name="action_me">我的资料</string>
+    <string name="create_favor_description">描述</string>
+    <string name="empty_nearby_hint">目前没有请求。</string>
+    <string name="invalid_phone_number">请输入合法的电话号码！</string>
+    <string name="title_section_inbox">已认领</string>
+</resources>

@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Peer</string>
-    <string name="parse_app_id">hFyJ3QxrARb3j64sXwXwp49s5QFolaYJCmtPZaGU</string>
-    <string name="parse_client_key">K4qm3Xnahm6WvMNToVJRJLr346rPVHnmTK4ktyKB</string>
+    <string name="parse_app_id" translatable="false">hFyJ3QxrARb3j64sXwXwp49s5QFolaYJCmtPZaGU</string>
+    <string name="parse_client_key" translatable="false">K4qm3Xnahm6WvMNToVJRJLr346rPVHnmTK4ktyKB</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
     <string name="loading">Loading...</string>
     <string name="saving">Saving...</string>
     <string name="locating">Locating...</string>
@@ -20,29 +20,30 @@
     <string name="action_locate">Locate</string>
 
 
-    <string name="name">Enter your todo</string>
+    <string name="name" translatable="false">Enter your todo</string>
     <string name="confirm">Done</string>
     <string name="create_todo">Create Todo</string>
     <string name="new_favor">New Favor</string>
     <string name="edit_profile">New Favor</string>
     <string name="view_favor">Favor</string>
     <string name="menu_delete">Delete</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="title_activity_sign_up" translatable="false">SignUpActivity</string>
     <string name="prompt_phone">Phone number</string>
     <string name="prompt_password">Password</string>
+    <string name="prompt_password_sign_up">Password(6-16 alpha/numbers)</string>
     <string name="prompt_name">Your name</string>
     <string name="prompt_birthday">Birthday</string>
     <string name="prompt_bio">Introduce yourself</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_up">Sign up</string>
-    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_location" translatable="false">LocationActivity</string>
     <string name="startlocation">Start locating</string>
     <string name="stoplocation">Stop locating</string>
-    <string name="hight_accuracy_desc">High Accuracy</string>
-    <string name="saving_battery_desc">Saving battery</string>
+    <string name="hight_accuracy_desc" translatable="false">High Accuracy</string>
+    <string name="saving_battery_desc" translatable="false">Saving battery</string>
     <string name="device_sensor_desc">Device sensor</string>
-    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_map" translatable="false">MapActivity</string>
 
     <string name="create_favor_title">Favor Title</string>
     <string name="create_favor_where">Location</string>
@@ -61,16 +62,16 @@
     <string name="view_user_phone">Your phone number.</string>
     <string name="view_user_birthday">Your birthday.</string>
 
-    <string name="title_activity_favor">FavorActivity</string>
+    <string name="title_activity_favor" translatable="false">FavorActivity</string>
 
 
     <string name="title_section_nearby">Nearby</string>
     <string name="title_section_inbox">Inbox</string>
     <string name="title_section_outbox">Outbox</string>
 
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1" translatable="false">Section 1</string>
+    <string name="title_section2" translatable="false">Section 2</string>
+    <string name="title_section3" translatable="false">Section 3</string>
 
     <string name="favor_form_invalid_toast_title">Sorry, your title should not be empty.</string>
     <string name="favor_form_invalid_toast_description">Sorry, your description should not be empty.</string>
@@ -87,4 +88,8 @@
     <string name="distance_suffix">m away</string>
 
     <string name="invalid_phone_number">Invalid Phone Number!</string>
+    <string name="invalid_password">Invalid Password!</string>
+    <string name="empty_outbox_hint">Click \"+\" to ask a favor!</string>
+    <string name="empty_nearby_hint">No favors yet.</string>
+    <string name="empty_inbox_hint">Find some WAITING tasks to give someone a favor!</string>
 </resources>
