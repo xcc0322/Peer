@@ -57,7 +57,6 @@ public class HomeLocationActivity extends ActionBarActivity implements
     super.onCreate(savedInstanceState);
     SDKInitializer.initialize(this.getApplicationContext());
     setContentView(R.layout.activity_geocoder);
-    setTitle(R.string.title_activity_location);
     ButterKnife.inject(this);
 
     mMapView = (MapView) findViewById(R.id.bmapView);
