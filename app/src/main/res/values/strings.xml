@@ -53,6 +53,16 @@
     <string name="create_favor_back_alert_title">Cancel</string>
     <string name="create_favor_back_alert_content">Are you sure to leave?</string>
 
+    <string name="view_favor_action_help">This task is waiting for a volunteer.\nI can help!</string>
+    <string name="view_favor_hint_claim_conflict">Sorry, this task has been claimed by others.</string>
+    <string name="view_favor_hint_after_claim">Now please call your peer and complete this task by %s.</string>
+    <string-array name="view_favor_status_array">
+        <item>WAITING</item>
+        <item>CLAIMED</item>
+        <item>COMPLETED</item>
+        <item>TIMEOUT</item>
+    </string-array>
+
     <string name="view_user_name_title">Name:</string>
     <string name="view_user_bio_title">Bio:</string>
     <string name="view_user_phone_title">Phone:</string>
@@ -86,6 +96,7 @@
 
     <string name="default_bio">The guy is too lazy to leave a bio.</string>
     <string name="distance_suffix">m away</string>
+    <string name="favor_item_from_user">From: %s</string>
 
     <string name="invalid_phone_number">Invalid Phone Number!</string>
     <string name="invalid_password">Invalid Password!</string>

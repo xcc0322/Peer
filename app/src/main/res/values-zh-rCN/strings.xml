@@ -56,7 +56,7 @@
     <string name="view_user_phone_title">电话：</string>
     <string name="view_user_birthday_title">生日：</string>
     <string name="view_user_name">你的名字</string>
-    <string name="view_user_bio">说点什么来介绍一下自己ba</string>
+    <string name="view_user_bio">说点什么来介绍一下自己吧</string>
     <string name="view_user_phone">你的电话号码</string>
     <string name="view_user_birthday">你的生日</string>
 
@@ -93,4 +93,15 @@
     <string name="empty_nearby_hint">目前没有请求。</string>
     <string name="invalid_phone_number">请输入合法的电话号码！</string>
     <string name="title_section_inbox">已认领</string>
+    <string name="view_favor_action_help">这个任务需要一位志愿者。\n那么我来帮忙吧！</string>
+    <string name="view_favor_hint_after_claim">现在请给你的伙伴打个电话，然后在 %s以前完成任务吧！</string>
+
+    <string-array name="view_favor_status_array">
+        <item>等待中</item>
+        <item>已被认领</item>
+        <item>已完成</item>
+        <item>已过期</item>
+    </string-array>
+    <string name="favor_item_from_user">来自%s</string>
+    <string name="view_favor_hint_claim_conflict">对不起， 这个任务已经被别人认领啦。</string>
 </resources>

@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.baidu.location.BDLocation;
+import com.baidu.location.BDLocationListener;
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptorFactory;
@@ -28,12 +30,12 @@ import com.parse.ParseException;
 import com.parse.ParseGeoPoint;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
-import com.parse.ParseUser;
 import com.xcc0322.peer.favor.EditFavor;
 import com.xcc0322.peer.favor.FavorActivity;
 import com.xcc0322.peer.favor.ViewFavor;
 import com.xcc0322.peer.model.User;
 import com.xcc0322.peer.user.ViewUser;
+import com.xcc0322.peer.util.LocationUtil;
 
 import java.util.List;
 
@@ -50,14 +52,21 @@ public class HomeLocationActivity extends ActionBarActivity implements
   BaiduMap mBaiduMap;
   MapView mMapView;
 
+  LatLng userLocation;
+
   @InjectView(R.id.address)
   EditText addressText;
 
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     SDKInitializer.initialize(this.getApplicationContext());
-    setContentView(R.layout.activity_geocoder);
+    setContentView(R.layout.activity_home);
     ButterKnife.inject(this);
+
+    if (!User.isLoggedIn()) {
+      startActivity(new Intent(this, LoginActivity.class));
+      finish();
+    }
 
     mMapView = (MapView) findViewById(R.id.bmapView);
     mBaiduMap = mMapView.getMap();
@@ -76,7 +85,19 @@ public class HomeLocationActivity extends ActionBarActivity implements
         latitude = user.getLocation().getLatitude();
         longitude = user.getLocation().getLongitude();
         getReverseGeoCode();
+      } else {
+        LocationUtil.getCurrentLocation(this, new MyLocationListener());
       }
+    }
+  }
+
+  public class MyLocationListener implements BDLocationListener {
+    @Override
+    public void onReceiveLocation(BDLocation location) {
+      latitude = location.getLatitude();
+      longitude = location.getLongitude();
+      LocationUtil.getAddress(HomeLocationActivity.this, latitude, longitude,
+          HomeLocationActivity.this);
     }
   }
 
@@ -98,6 +119,7 @@ public class HomeLocationActivity extends ActionBarActivity implements
       case R.id.action_logout:
         User.logOut();
         startActivity(new Intent(this, LoginActivity.class));
+        finish();
         return true;
       case R.id.action_me:
         startActivity(new Intent(this, ViewUser.class));
@@ -143,7 +165,8 @@ public class HomeLocationActivity extends ActionBarActivity implements
           Toast.LENGTH_LONG).show();
       return;
     }
-    updateMapLocation(result.getLocation());
+    userLocation = result.getLocation();
+    updateMapLocation(userLocation);
     Toast.makeText(HomeLocationActivity.this, R.string.location_success,
         Toast.LENGTH_LONG).show();
   }
@@ -155,7 +178,8 @@ public class HomeLocationActivity extends ActionBarActivity implements
           Toast.LENGTH_LONG).show();
       return;
     }
-    updateMapLocation(result.getLocation());
+    userLocation = result.getLocation();
+    updateMapLocation(userLocation);
     addressText.setText(result.getAddress());
 
     Toast.makeText(HomeLocationActivity.this, result.getAddress(),
@@ -173,7 +197,7 @@ public class HomeLocationActivity extends ActionBarActivity implements
     mBaiduMap.setOnMarkerClickListener(new BaiduMap.OnMarkerClickListener() {
        @Override
        public boolean onMarkerClick(Marker marker) {
-         switchToViewUser(marker.getPosition());
+         switchToViewFavor(marker.getPosition());
          return false;
        }
      });
@@ -181,7 +205,7 @@ public class HomeLocationActivity extends ActionBarActivity implements
     longitude = location.longitude;
   }
 
-  private void updateVolunteerLocation(double latitude, double longitude) {
+  private void updateFavorLocation(double latitude, double longitude) {
     LatLng location = new LatLng(latitude, longitude);
     mBaiduMap.addOverlay(new MarkerOptions().position(location)
         .icon(BitmapDescriptorFactory
@@ -192,7 +216,7 @@ public class HomeLocationActivity extends ActionBarActivity implements
     final ParseGeoPoint userLocation = new ParseGeoPoint(location.latitude, location.longitude);
     ParseQuery<ParseObject> query = ParseQuery.getQuery("Favor");
     query.whereNear("destination", userLocation);
-    query.setLimit(10);
+    query.setLimit(20);
     query.findInBackground(new FindCallback<ParseObject>() {
       @Override
       protected void finalize() throws Throwable {
@@ -201,22 +225,21 @@ public class HomeLocationActivity extends ActionBarActivity implements
 
       @Override
       public void done(List<ParseObject> favors, ParseException e) {
-        int x = 5;
         for(ParseObject favor : favors) {
           if(favor.has("destination")) {
             ParseGeoPoint location = favor.getParseGeoPoint("destination");
             favor.pinInBackground();
-            updateVolunteerLocation(location.getLatitude(), location.getLongitude());
+            updateFavorLocation(location.getLatitude(), location.getLongitude());
           }
         }
       }
     });
   }
 
-  private void switchToViewUser(LatLng location) {
+  private void switchToViewFavor(LatLng location) {
     final ParseGeoPoint userLocation = new ParseGeoPoint(location.latitude, location.longitude);
     ParseQuery<ParseObject> query = ParseQuery.getQuery("Favor");
-    query.whereNear("location", userLocation);
+    query.whereNear("destination", userLocation);
     query.setLimit(1);
     query.findInBackground(new FindCallback<ParseObject>() {
       @Override
