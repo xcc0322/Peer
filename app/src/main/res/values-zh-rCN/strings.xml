@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">伙伴</string>
-    <string name="parse_app_id">hFyJ3QxrARb3j64sXwXwp49s5QFolaYJCmtPZaGU</string>
-    <string name="parse_client_key">K4qm3Xnahm6WvMNToVJRJLr346rPVHnmTK4ktyKB</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="loading">加载中...</string>
     <string name="saving">保存中...</string>
     <string name="locating">加载中...</string>
@@ -17,17 +13,12 @@
     <string name="action_settings">设置</string>
     <string name="action_save">保存</string>
     <string name="action_locate">定位</string>
-
-
-    <string name="name">Enter your todo</string>
     <string name="confirm">完成</string>
     <string name="create_todo">创建一条请求</string>
     <string name="new_favor">新的请求</string>
     <string name="edit_profile">新的请求</string>
     <string name="view_favor">任务</string>
     <string name="menu_delete">删除</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="prompt_phone">电话号码</string>
     <string name="prompt_password">密码</string>
     <string name="prompt_password_sign_up">密码(6-16位字母/数字)</string>
@@ -36,13 +27,9 @@
     <string name="prompt_bio">介绍一下自己</string>
     <string name="action_sign_in">登入</string>
     <string name="action_sign_up">注册</string>
-    <string name="title_activity_location">LocationActivity</string>
     <string name="startlocation">开始定位</string>
     <string name="stoplocation">定位结束</string>
-    <string name="hight_accuracy_desc">High Accuracy</string>
-    <string name="saving_battery_desc">Saving battery</string>
     <string name="device_sensor_desc">设备传感器</string>
-    <string name="title_activity_map">MapActivity</string>
 
     <string name="create_favor_title">标题</string>
     <string name="create_favor_where">位置</string>
@@ -60,15 +47,8 @@
     <string name="view_user_phone">你的电话号码</string>
     <string name="view_user_birthday">你的生日</string>
 
-    <string name="title_activity_favor">FavorActivity</string>
-
-
     <string name="title_section_nearby">附近</string>
     <string name="title_section_outbox">已发起</string>
-
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
 
     <string name="favor_form_invalid_toast_title">对不起，标题不能为空。</string>
     <string name="favor_form_invalid_toast_description">对不起，描述不能为空。</string>
@@ -104,4 +84,5 @@
     </string-array>
     <string name="favor_item_from_user">来自%s</string>
     <string name="view_favor_hint_claim_conflict">对不起， 这个任务已经被别人认领啦。</string>
+    <string name="smaller_image_alert">请上传一张小一点的图片。</string>
 </resources>

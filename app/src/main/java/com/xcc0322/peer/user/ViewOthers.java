@@ -36,7 +36,7 @@ public class ViewOthers extends ActionBarActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.view_user);
+    setContentView(R.layout.view_others);
     ButterKnife.inject(this);
 
     ActionBar actionBar = getSupportActionBar();

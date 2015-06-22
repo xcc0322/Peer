@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xcc0322.peer"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.xcc0322.peer" >
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -29,7 +27,7 @@
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="android.permission.CALL_PHONE"/>
 
-    <android:uses-permission
+    <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
 
@@ -52,7 +50,7 @@
 
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="nykItyIZeRZmxP75R7zCNvp1" />
+            android:value="LaTS0otdwFw18Gb89PDCgx2p" />
 
         <activity
             android:name=".favor.EditFavor"
@@ -71,6 +69,8 @@
              android:parentActivityName=".favor.FavorActivity" >
         </activity>
         <activity android:name=".user.ViewUser" >
+        </activity>
+        <activity android:name=".user.ViewOthers" >
         </activity>
         <activity android:name=".user.EditUser" >
         </activity>

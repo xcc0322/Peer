@@ -1,21 +1,14 @@
 package com.xcc0322.peer;
 
-import com.baidu.location.LocationClient;
 import com.parse.Parse;
 import com.parse.ParseACL;
 import com.parse.ParseCrashReporting;
-import com.parse.ParseUser;
 
 import android.app.Application;
 
 public class PeerApplication extends Application {
-  public static final String APPLICATION_ID =
-      "hFyJ3QxrARb3j64sXwXwp49s5QFolaYJCmtPZaGU";
-  public static final String CLIENT_KEY =
-      "K4qm3Xnahm6WvMNToVJRJLr346rPVHnmTK4ktyKB";
-  public static final String BAIDU_AK =
-      "nykItyIZeRZmxP75R7zCNvp1";
-
+  public static final String PARSE_APPLICATION_ID = BuildConfig.PARSE_APPLICATION_ID;
+  public static final String PARSE_CLIENT_KEY = BuildConfig.PARSE_CLIENT_KEY;
 
   @Override
   public void onCreate() {
@@ -32,7 +25,7 @@ public class PeerApplication extends Application {
     Parse.enableLocalDatastore(this);
 
     // Add your initialization code here
-    Parse.initialize(this, APPLICATION_ID, CLIENT_KEY);
+    Parse.initialize(this, PARSE_APPLICATION_ID, PARSE_CLIENT_KEY);
 
     ParseACL defaultACL = new ParseACL();
     // Optionally enable public read access.

@@ -15,3 +15,11 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+-dontwarn retrofit.**
+-dontwarn rx.internal.util.unsafe.**
+-dontwarn okio.**
+-dontwarn com.parse.**
+-dontwarn butterknife.internal.**
+-dontwarn com.squareup.okhttp.**
+-dontwarn com.squareup.picasso.**
+-dontwarn com.xcc0322.peer.favor.FavorListFragment
